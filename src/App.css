@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+
+.description-comp {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 17px;
+}
+
+.description-comp > div {
+  display: flex;
+}
+
+.span-1 {
+  flex: 1 0 50%;
+}
+
+.span-2 {
+  flex: 0 1 100%;
+}
+
+.label {
+  width: 180px;
+}
